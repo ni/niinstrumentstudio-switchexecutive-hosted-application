@@ -8,16 +8,12 @@
    xmlns:core="clr-namespace:NationalInstruments.Core;assembly=NationalInstruments.Core"
    xmlns:coreControls="clr-namespace:NationalInstruments.Controls;assembly=NationalInstruments.Core"
    xmlns:controlsConverters="clr-namespace:NationalInstruments.Controls.Converters;assembly=NationalInstruments.Controls"
-   xmlns:restrictedControls="clr-namespace:NationalInstruments.Restricted.Controls;assembly=NationalInstruments.Controls.LabVIEW"
    xmlns:shell="clr-namespace:NationalInstruments.Shell;assembly=NationalInstruments.PlatformFramework"
    xmlns:local="clr-namespace:SwitchExecutive.Plugin.Internal"
    xmlns:localControls="clr-namespace:SwitchExecutive.Plugin.Internal.Controls"
    xmlns:shellControls="clr-namespace:NationalInstruments.Controls.Shell;assembly=NationalInstruments.PlatformFramework">
    <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.Graphs;component/SystemSkins/Graph.System.WPF.xaml"/>
-        <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.LabVIEW;component/IDESkins/ComboBoxSelector.IDE.WPF.xaml"/>
-        <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.LabVIEW;component/IDESkins/LVCheckbox.IDE.WPF.xaml"/>
-        <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.LabVIEW;component/IDESkins/StringControl.IDE.WPF.xaml"/>
         <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.Numerics;component/IDESkins/NumericTextBoxDouble.IDE.WPF.xaml"/>
         <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.Numerics;component/IDESkins/NumericTextBoxInt32.IDE.WPF.xaml"/>
         <ResourceDictionary Source="/NationalInstruments.Controls.SkinProviders.Numerics;component/IDESkins/NumericTextBoxInt64.IDE.WPF.xaml"/>

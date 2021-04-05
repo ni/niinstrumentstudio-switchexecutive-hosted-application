@@ -1,4 +1,4 @@
-﻿using NationalInstruments.InstrumentFramework.HostedContent;
+﻿using NationalInstruments.InstrumentFramework.Plugins;
 using System;
 using System.ComponentModel;
 using System.Windows;
@@ -8,7 +8,7 @@ using SwitchExecutive.Plugin.Internal.Common;
 
 namespace SwitchExecutive.Plugin.Internal
 {
-   public partial class SwitchExecutiveControl : UserControl, IHostedPlugin
+   public partial class SwitchExecutiveControl : UserControl, IPanelPlugin
    {
       public SwitchExecutiveControl(
          string editTimeConfiguration, 
@@ -52,7 +52,7 @@ namespace SwitchExecutive.Plugin.Internal
          mainViewModel.ApplyLoadFromFile();
       }
 
-      public FrameworkElement HostedContent => this;
+      public FrameworkElement PanelContent => this;
 
       public void Shutdown()
       {

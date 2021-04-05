@@ -1,4 +1,4 @@
-﻿using NationalInstruments.InstrumentFramework.HostedContent;
+﻿using NationalInstruments.InstrumentFramework.Plugins;
 using SwitchExecutive.Plugin.Internal;
 using System;
 
@@ -8,8 +8,8 @@ namespace SwitchExecutive.Plugin
    // of your plugin that will show up in InstrumentStudio for your users to select. The second argument is a
    // unique identifier that InstrumentStudio uses internally. Use guidgen to generate a guid. The third argument 
    // is which panel presentations this plugin supports.
-   [HostedPlugin("SwitchExecutive", "need guid", new PanelPresentation[] { PanelPresentation.ConfigurationWithVisualization, PanelPresentation.ConfigurationOnly })]
-   public class SwtichExecutiveFactory : IHostedPluginFactory
+   [PanelPlugin("SwitchExecutive", "need guid", "Group Name", "Panel Type", PanelPresentation.ConfigurationWithVisualization | PanelPresentation.ConfigurationOnly)]
+   public class SwtichExecutiveFactory : IPanelPluginFactory
    {
       /// <summary>
       /// This method is called by InstrumentStudio when your plugin is placed within a document. It should return the visual (FrameworkElement) that
@@ -23,7 +23,7 @@ namespace SwitchExecutive.Plugin
       /// <param name="requestedPresentation">Render your UI accordingly, based on whether your plugin is placed in a small panel (ConfigurationOnly) or
       /// large panel (ConfigurationWithVisualization).</param>
       /// <returns>The IInstrumentStudioPlugin to be hosted.</returns>
-      public IHostedPlugin CreatePlugin(string editTimeConfiguration, string runTimeConfiguration, UpdateConfigurationDelegate updateConfigurationDelegate, PanelPresentation requestedPresentation)
+      public IPanelPlugin CreatePlugin(string editTimeConfiguration, string runTimeConfiguration, UpdateConfigurationDelegate updateConfigurationDelegate, PanelPresentation requestedPresentation)
       {
          return new SwitchExecutiveControl(editTimeConfiguration, runTimeConfiguration, updateConfigurationDelegate, requestedPresentation);
       }
