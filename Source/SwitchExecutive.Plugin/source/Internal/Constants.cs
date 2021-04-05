@@ -68,7 +68,7 @@ namespace SwitchExecutive.Plugin.Internal
 
       public sealed class PanelPresentation
       {
-         public static readonly IReadOnlyList<NationalInstruments.InstrumentFramework.HostedContent.PanelPresentation> NoSupportedPresentations = new NationalInstruments.InstrumentFramework.HostedContent.PanelPresentation[0];
+         public static readonly IReadOnlyList<NationalInstruments.InstrumentFramework.Plugins.PanelPresentation> NoSupportedPresentations = new NationalInstruments.InstrumentFramework.Plugins.PanelPresentation[0];
       }
 
       public sealed class InstrumentPanels

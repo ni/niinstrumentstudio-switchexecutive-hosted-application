@@ -1,4 +1,4 @@
-﻿using NationalInstruments.InstrumentFramework.HostedContent;
+﻿using NationalInstruments.InstrumentFramework.Plugins;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

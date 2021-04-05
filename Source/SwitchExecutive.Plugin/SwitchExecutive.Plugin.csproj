@@ -102,6 +102,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Imports\NationalInstruments.Core.dll</HintPath>
     </Reference>
+    <Reference Include="NationalInstruments.FuseControlsImplementation">
+      <HintPath>Imports\NationalInstruments.FuseControlsImplementation.dll</HintPath>
+    </Reference>
     <Reference Include="NationalInstruments.InstrumentFramework.HostedContent, Version=255.0.0.0, Culture=neutral, PublicKeyToken=2eaa5af0834e221d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Imports\NationalInstruments.InstrumentFramework.HostedContent.dll</HintPath>
