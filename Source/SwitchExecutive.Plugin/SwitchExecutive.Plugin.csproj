@@ -56,44 +56,14 @@
     <Reference Include="NationalInstruments.Controls">
       <HintPath>Imports\NationalInstruments.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="NationalInstruments.Controls.Booleans">
-      <HintPath>Imports\NationalInstruments.Controls.Booleans.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.Graphs">
-      <HintPath>Imports\NationalInstruments.Controls.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.Industry">
-      <HintPath>Imports\NationalInstruments.Controls.Industry.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.LabVIEW">
-      <HintPath>Imports\NationalInstruments.Controls.LabVIEW.dll</HintPath>
-    </Reference>
     <Reference Include="NationalInstruments.Controls.Numerics">
       <HintPath>Imports\NationalInstruments.Controls.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.Runtime">
-      <HintPath>Imports\NationalInstruments.Controls.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.Runtime.cache">
-      <HintPath>Imports\NationalInstruments.Controls.Runtime.cache.dll</HintPath>
     </Reference>
     <Reference Include="NationalInstruments.Controls.SkinProviders">
       <HintPath>Imports\NationalInstruments.Controls.SkinProviders.dll</HintPath>
     </Reference>
-    <Reference Include="NationalInstruments.Controls.SkinProviders.Booleans">
-      <HintPath>Imports\NationalInstruments.Controls.SkinProviders.Booleans.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.SkinProviders.cache">
-      <HintPath>Imports\NationalInstruments.Controls.SkinProviders.cache.dll</HintPath>
-    </Reference>
     <Reference Include="NationalInstruments.Controls.SkinProviders.Graphs">
       <HintPath>Imports\NationalInstruments.Controls.SkinProviders.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.SkinProviders.Industry">
-      <HintPath>Imports\NationalInstruments.Controls.SkinProviders.Industry.dll</HintPath>
-    </Reference>
-    <Reference Include="NationalInstruments.Controls.SkinProviders.LabVIEW">
-      <HintPath>Imports\NationalInstruments.Controls.SkinProviders.LabVIEW.dll</HintPath>
     </Reference>
     <Reference Include="NationalInstruments.Controls.SkinProviders.Numerics">
       <HintPath>Imports\NationalInstruments.Controls.SkinProviders.Numerics.dll</HintPath>
